@@ -92,6 +92,12 @@ public class Estadio {
 		this.capacidad = capacidad;
 		this.direccion = direccion;
 	}
+
+	@Override
+	public String toString() {
+		return "Estadio [nombre=" + nombre + ", fechaFundacion=" + fechaFundacion + ", ciudad=" + ciudad
+				+ ", capacidad=" + capacidad + ", direccion=" + direccion + "]";
+	}
 	
 	
 	

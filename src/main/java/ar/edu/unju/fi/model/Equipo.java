@@ -50,6 +50,11 @@ public class Equipo {
 		this.nombre = nombre;
 		this.estadio = estadio;
 	}
+
+	@Override
+	public String toString() {
+		return "Equipo [nombre=" + nombre + ", estadio=" + estadio + "]";
+	}
 	
 	
 	

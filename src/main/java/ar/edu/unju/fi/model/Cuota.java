@@ -109,6 +109,12 @@ public class Cuota {
 		this.estado = estado;
 		this.usuario = usuario;
 	}
+
+	@Override
+	public String toString() {
+		return "Cuota [id=" + id + ", fechaPago=" + fechaPago + ", periodo=" + periodo + ", monto=" + monto
+				+ ", estado=" + estado + ", usuario=" + usuario + "]";
+	}
 	
 	
 	

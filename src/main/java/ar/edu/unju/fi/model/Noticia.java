@@ -64,6 +64,11 @@ public class Noticia {
 		this.titulo = titulo;
 		this.resumen = resumen;
 	}
+
+	@Override
+	public String toString() {
+		return "Noticia [fecha=" + fecha + ", titulo=" + titulo + ", resumen=" + resumen + "]";
+	}
 	
 	
 	

@@ -95,6 +95,12 @@ public class Resultado {
 		this.golesEquipo1 = golesEquipo1;
 		this.golesEquipo2 = golesEquipo2;
 	}
+
+	@Override
+	public String toString() {
+		return "Resultado [fecha=" + fecha + ", equipo1=" + equipo1 + ", equipo2=" + equipo2 + ", golesEquipo1="
+				+ golesEquipo1 + ", golesEquipo2=" + golesEquipo2 + "]";
+	}
 	
 	
 
