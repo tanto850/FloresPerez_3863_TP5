@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmnls:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<meta charset="ISO-8859-1">
+<title>Flores Pérez</title>
+</head>
+<body>
+	<div>
+		<header>
+			LIGA DE FUTBOL PROFESIONAL
+		</header>
+		<nav id="menu">
+			<ul>
+				<li class="elemento-lista"><a href=Index.html>Home</a></li>
+				<li class="elemento-lista"><a href=fixture.html>Fixture y
+						resultados</a></li>
+				<li class="elemento-lista"><a href=equipos.html>Equipos </a></li>
+			</ul>
+			<div id="welcome">
+				<h4 th:text = “ ’Bienvenido! ‘ + ${usuario}“></h4>
+			</div>
+		</nav>
+		<div>
+			<section id="noticias">
+				<h2>Noticias</h2>
+				<div>
+					<div id="cuadro">
+						<img class="foto1" src="img/cuadro1.jpg" width=240px height=175px />
+						<p>12/03/20</p>
+						<p>Nueva noticia de los partidos suspendidos por la cuarentena.</p>
+					</div>
+					<div id="cuadro">
+						<img class="foto2" src="img/cuadro2.jpg" width=240px height=175px/>
+						<p>13/03/20</p>
+						<p>Repetición de la transmición en vivo de la final de la copa anual de profesionales.</p>
+					</div>
+					<div id="cuadro">
+						<img class="foto3" src="img/cuadro3.jpg" width=240px height=175px />
+						<p>20/03/20</p>
+						<p>Reprogramación de sorteos para las próximas fechas.</p>
+					</div>
+				</div>
+			</section>
+			<aside id="auspiciantes">
+				<h2>Auspiciantes</h2>
+			</aside>
+		</div>
+		<footer id="pie">
+			<p>Av. Pedro Ortiz de Zárate N° 455 - Tel: 388 4789555</p>
+			<p>Facebook: Liga de Futbol Pro - Twitter: Liga de Futbol Pro.</p>
+		</footer>
+	</div>
+</body>
+</html>
